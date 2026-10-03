@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- === SEO Core Optimization === -->
+    <!-- Strategy: Added "Official" to the Title to boost brand authority -->
+    <title>ChatShare Official - Professional AI Model Aggregation Platform | GPT-5.6, Gemini 3.1pro & Claude 4.8</title>
+
+    <meta name="description" content="ChatShare Official Site provides convenient AI aggregation services. Integrating GPT-5.6, Claude 4.8, Gemini 3.1pro, and Grok-4.2. A one-stop AI platform that solves subscription and payment challenges.">
+
+    <!-- Strategy: Prioritize Brand Keywords -->
+    <meta name="keywords" content="ChatShare,ChatShare Official,AI Aggregation Platform,ChatGPT China,Claude 4.8 China,Gemini 3.1pro,AI Model Aggregation,AI Service Platform">
+    <meta name="author" content="ChatShare Team">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="http://chatshare.ren/en.html">
+    <meta property="og:url" content="http://chatshare.ren/en.html">
+    <meta property="og:site_name" content="ChatShare">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="zh_CN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ChatShare Official AI Model Aggregation Platform">
+    <meta name="twitter:description" content="ChatShare provides convenient access to ChatGPT, Claude, Gemini, Grok and other AI models with activation code purchase and usage guides.">
+    
+    <link rel="alternate" hreflang="zh-CN" href="http://chatshare.ren/">
+    <link rel="alternate" hreflang="en" href="http://chatshare.ren/en.html">
+
+    <link rel="icon" href="static/picture/caicats-purple.jpg" type="image/jpeg">
+    <meta name="theme-color" content="#e0f7fa">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ChatShare Official - Professional AI Model Aggregation Platform">
+    <meta property="og:description" content="The Official ChatShare Platform. Reliable and low latency. One-stop access to GPT-5.6, Gemini 3.1pro, and Claude 4.8. Fast access from China.">
+    <meta property="og:image" content="http://chatshare.ren/static/picture/caicats-purple.jpg">
+    
+    <!-- === Structured Data (Schema.org) === -->
+    <script type="application/ld+json">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ChatShare",
+        "alternateName": ["ChatShare Official", "ChatShare AI Platform"],
+        "url": "http://chatshare.ren/en.html",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "http://chatshare.ren/en.html?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ChatShare",
+        "url": "http://chatshare.ren/en.html",
+        "logo": "http://chatshare.ren/static/picture/caicats-purple.jpg",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "availableLanguage": ["Chinese", "English"]
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "ChatShare All-in-One AI Pass",
+        "image": "https://imgtolinkx.com/i/Zf3VWYdU",
+        "description": "ChatShare Official AI aggregation service. Integrates GPT-4o, Claude 4.8, and Gemini 3.",
+        "brand": {
+          "@type": "Brand",
+          "name": "ChatShare"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "http://chatshare.ren/en.html#pricing",
+          "priceCurrency": "CNY",
+          "price": "59.00",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "2150"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+          "@type": "Question",
+          "name": "What is ChatShare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ChatShare is a professional AI model aggregation platform. We use enterprise-grade architecture to connect to OpenAI, Anthropic, and Google official APIs, providing stable and reliable AI services."
+          }
+        }]
+      }
+    ]
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="static/css/css2.css" rel="stylesheet">
+
+    <style>
+        :root {
+            /* Kept the Ghibli style color palette */
+            --color-bg-start: #e0f7fa;
+            --color-bg-end: #fdfaf6;
+            --color-primary: #5d4037;
+            --color-secondary: #795548;
+            --color-accent1: #66bb6a;
+            --color-accent1-light: #a5d6a7; 
+            --color-accent1-dark: #43a047; 
+            --color-accent2: #ffca28;
+            --color-accent2-dark: #ffb300; 
+            --color-card-bg: rgba(255, 253, 246, 0.95); 
+            --color-card-border: #d7ccc8; 
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; font-family: "M PLUS Rounded 1c", "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.7; overflow-x: hidden; }
+        body { background: linear-gradient(180deg, var(--color-bg-start) 0%, var(--color-bg-end) 40%, #ffffff 100%); color: var(--color-primary); min-height: 100vh; position: relative; }
+
+        #background-canvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
+
+        header { position: sticky; top: 0; width: 100%; z-index: 100; background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255, 255, 255, 0.5); transition: all 0.3s ease; }
+        header.scrolled { background: rgba(255, 255, 255, 0.95); box-shadow: 0 4px 20px rgba(93, 64, 55, 0.08); }
+        .nav-container { max-width: 1200px; margin: 0 auto; padding: 1rem 1.5rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-brand { font-size: 1.5rem; font-weight: 800; color: var(--color-primary); display: flex; align-items: center; gap: 10px; text-decoration: none; }
+        .nav-brand img { width: 32px; height: 32px; border-radius: 6px; }
+        
+        .nav-right { display: flex; align-items: center; gap: 2rem; }
+        .nav-links { display: flex; gap: 2rem; }
+        .nav-links a { color: var(--color-primary); font-size: 0.95rem; font-weight: 700; text-decoration: none; position: relative; transition: color 0.3s ease; }
+        .nav-links a:hover { color: var(--color-accent1-dark); }
+        .menu-toggle { display: none; background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--color-primary); }
+
+        .lang-switch { position: relative; margin-left: 1rem; }
+        .lang-btn { display: flex; align-items: center; gap: 6px; padding: 6px 12px; border: 1px solid #d1d5db; border-radius: 8px; background: rgba(255,255,255,0.8); color: var(--color-primary); font-weight: 600; font-size: 0.9rem; cursor: pointer; transition: all 0.2s; }
+        .lang-btn:hover { border-color: var(--color-accent1); background: white; }
+        .lang-dropdown { position: absolute; top: 100%; right: 0; margin-top: 8px; background: white; border: 1px solid #e5e7eb; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); width: 140px; overflow: hidden; opacity: 0; visibility: hidden; transform: translateY(-10px); transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1); }
+        .lang-switch:hover .lang-dropdown { opacity: 1; visibility: visible; transform: translateY(0); }
+        .lang-option { display: flex; align-items: center; gap: 10px; padding: 10px 16px; text-decoration: none; color: var(--color-primary); font-size: 0.9rem; font-weight: 500; transition: background 0.2s; }
+        .lang-option:hover { background: #f3f4f6; color: var(--color-accent1-dark); }
+        .lang-option.active { background: #e0f7fa; color: var(--color-accent1-dark); font-weight: 700; }
+
+        @media (max-width: 768px) {
+            .nav-right { gap: 1rem; }
+            .nav-links { position: absolute; top: 100%; left: 0; width: 100%; background: rgba(255, 255, 255, 0.98); backdrop-filter: blur(15px); flex-direction: column; max-height: 0; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: max-height 0.4s ease; }
+            .nav-links.open { max-height: 400px; padding-bottom: 1rem; }
+            .nav-links a { padding: 1rem; width: 100%; text-align: center; }
+            .menu-toggle { display: block; }
+            .lang-switch { margin-left: 0; } 
+        }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+        .pricing-hero { text-align: center; padding: 5rem 0 2rem; }
+        .header-cloud-icon { width: 90px; height: 90px; margin: 0 auto 1.5rem; display: block; animation: float 4s ease-in-out infinite; filter: drop-shadow(0 10px 15px rgba(160, 210, 235, 0.4)); }
+        h1 { font-size: 2.8rem; font-weight: 800; margin-bottom: 1rem; color: var(--color-primary); line-height: 1.3; }
+        .gradient-text { background: linear-gradient(135deg, var(--color-accent1-dark), var(--color-accent1)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero-desc { font-size: 1.2rem; color: var(--color-secondary); max-width: 720px; margin: 0 auto 2rem; line-height: 1.8; }
+        .hero-desc strong { color: var(--color-primary); font-weight: 700; background: rgba(255, 255, 255, 0.5); padding: 0 4px; border-radius: 4px; }
+
+        .hub-section { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; margin-bottom: 3rem; }
+        @media (max-width: 768px) { .hub-section { grid-template-columns: 1fr; } }
+        .status-box { background: rgba(255, 255, 255, 0.8); border: 1px solid var(--color-accent1); border-radius: 12px; padding: 1.5rem; backdrop-filter: blur(10px); }
+        .status-header { display: flex; align-items: center; gap: 10px; margin-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.05); padding-bottom: 0.5rem; }
+        .status-dot { width: 10px; height: 10px; background: #4caf50; border-radius: 50%; box-shadow: 0 0 8px #4caf50; animation: pulse 2s infinite; }
+        .update-list { list-style: none; }
+        .update-item { display: flex; align-items: baseline; padding: 0.8rem 0; border-bottom: 1px solid rgba(0,0,0,0.05); }
+        .update-item:last-child { border-bottom: none; }
+        .update-tag { font-size: 0.75rem; padding: 2px 6px; border-radius: 4px; margin-right: 10px; font-weight: bold; }
+        .tag-new { background: var(--color-accent2); color: var(--color-primary); }
+        .tag-tech { background: #e3f2fd; color: #1976d2; }
+        .update-link { text-decoration: none; color: var(--color-primary); font-weight: 600; flex: 1; transition: color 0.2s; }
+        .update-link:hover { color: var(--color-accent1-dark); text-decoration: underline; }
+        .update-date { font-size: 0.85rem; color: var(--color-secondary); opacity: 0.8; margin-left: 10px; }
+
+        .stats-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1.5rem; margin: 2rem 0 3rem; }
+        .stat-item { background: rgba(255, 255, 255, 0.6); backdrop-filter: blur(4px); padding: 1.5rem; border-radius: 1rem; border: 1px solid rgba(255, 255, 255, 0.8); text-align: center; transition: transform 0.3s ease; }
+        .stat-item:hover { transform: translateY(-5px); background: white; }
+        .stat-number { font-size: 2.5rem; font-weight: 800; color: var(--color-accent1-dark); line-height: 1.2; }
+        .stat-label { font-size: 0.9rem; color: var(--color-secondary); font-weight: 600; }
+
+        .pricing-cards-wrapper { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-top: 2rem; }
+        .card { background: var(--color-card-bg); border: 1px solid var(--color-card-border); border-radius: 1.5rem; padding: 2rem; transition: all 0.3s ease; position: relative; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .pricing-card { flex: 1; min-width: 300px; max-width: 450px; display: flex; flex-direction: column; }
+        .card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(93, 64, 55, 0.12); border-color: var(--color-accent1-light); background: #fff; }
+        .price-amount { font-size: 3.5rem; font-weight: 800; color: var(--color-accent1-dark); line-height: 1; }
+        .feature-list { margin: 1.5rem 0; flex-grow: 1; }
+        .feature-item { display: flex; align-items: start; gap: 10px; margin-bottom: 0.8rem; color: var(--color-secondary); font-size: 0.95rem; }
+        .feature-icon svg { width: 20px; height: 20px; fill: var(--color-accent1); min-width: 20px; }
+        
+        .btn { display: inline-block; padding: 1rem 2rem; background: var(--color-accent1); color: white; border-radius: 50px; text-decoration: none; font-weight: 700; text-align: center; transition: all 0.3s ease; border: none; cursor: pointer; box-shadow: 0 4px 15px rgba(102, 187, 106, 0.3); width: 100%; }
+        .btn:hover { background: var(--color-accent1-dark); transform: translateY(-2px); }
+        .btn-secondary { background: white; color: var(--color-primary); border: 2px solid #e0e0e0; box-shadow: none; }
+        .btn-secondary:hover { background: #f5f5f5; border-color: var(--color-primary); }
+
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+        .icon-box { width: 50px; height: 50px; background: rgba(102, 187, 106, 0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; color: var(--color-accent1-dark); }
+        .card-title { font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--color-primary); }
+        h2.card-title { font-size: 2rem; margin-top: 1rem; text-align: center; margin-bottom: 2rem; }
+        
+        .seo-text-block { font-size: 0.95rem; color: var(--color-secondary); line-height: 1.8; text-align: justify; margin-top: 10px; }
+
+        .comparison-table-wrapper { overflow-x: auto; border-radius: 1rem; box-shadow: 0 10px 30px rgba(93, 64, 55, 0.05); background: white; }
+        .comparison-table { width: 100%; border-collapse: collapse; min-width: 600px; }
+        .comparison-table th, .comparison-table td { padding: 1.2rem; text-align: left; border-bottom: 1px solid #f0f0f0; }
+        .comparison-table th { background: #f9fcf9; color: var(--color-primary); font-weight: 800; }
+        .text-green { color: #2e7d32; font-weight: 600; }
+
+        .contact-section { background: rgba(255, 255, 255, 0.5); border-top: 1px solid var(--color-card-border); margin-top: 4rem; padding-bottom: 3rem; padding-top: 2rem; }
+        footer { text-align: center; padding: 2rem; color: var(--color-secondary); font-size: 0.9rem; border-top: 1px solid rgba(0,0,0,0.05); background: rgba(255,255,255,0.5); }
+        .seo-footer-text { max-width: 900px; margin: 0 auto 2rem; text-align: center; font-size: 0.85rem; opacity: 0.7; line-height: 1.6; }
+
+        @keyframes float { 0% { transform: translateY(0px); } 50% { transform: translateY(-8px); } 100% { transform: translateY(0px); } }
+        @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.4); } 70% { box-shadow: 0 0 0 10px rgba(76, 175, 80, 0); } 100% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0); } }
+        .scroll-animate { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
+        .scroll-animate.visible { opacity: 1; transform: translateY(0) !important; }
+
+        .copy-toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%) translateY(100px); background: var(--color-primary); color: white; padding: 12px 24px; border-radius: 50px; opacity: 0; transition: all 0.4s; z-index: 1000; }
+        .copy-toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+        .bookmark-prompt {
+            position: fixed;
+            right: 1.5rem;
+            bottom: 1.5rem;
+            z-index: 1100;
+            width: min(360px, calc(100vw - 2rem));
+            padding: 1.1rem;
+            border: 1px solid rgba(74, 222, 128, 0.35);
+            border-radius: 1rem;
+            background: rgba(255, 255, 255, 0.96);
+            box-shadow: 0 18px 45px rgba(15, 23, 42, 0.16);
+            color: #334155;
+            opacity: 0;
+            transform: translateY(1rem);
+            pointer-events: none;
+            transition: opacity 0.25s ease, transform 0.25s ease;
+        }
+        .bookmark-prompt.is-visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
+        .bookmark-prompt[hidden] { display: none; }
+        .bookmark-prompt-header { display: flex; align-items: flex-start; gap: 0.75rem; }
+        .bookmark-prompt-icon { display: grid; place-items: center; flex: 0 0 2.5rem; width: 2.5rem; height: 2.5rem; border: 1px solid rgba(34, 197, 94, 0.28); border-radius: 0.75rem; background: #f0fdf4; color: #16a34a; font-size: 1.3rem; }
+        .bookmark-prompt h3 { margin: 0; color: #334155; font-size: 1rem; }
+        .bookmark-prompt-subtitle { margin: 0.25rem 0 0; color: #64748b; font-size: 0.8rem; }
+        .bookmark-prompt-close { margin-left: auto; padding: 0.1rem 0.35rem; border: 0; background: transparent; color: #94a3b8; font-size: 1.1rem; cursor: pointer; }
+        .bookmark-prompt-message { margin: 1rem 0; color: #475569; font-size: 0.9rem; line-height: 1.7; }
+        .bookmark-prompt-actions { display: flex; gap: 0.6rem; }
+        .bookmark-prompt-actions button { flex: 1; min-height: 2.5rem; padding: 0.45rem 0.75rem; border-radius: 0.6rem; font: inherit; font-weight: 700; cursor: pointer; }
+        .bookmark-prompt-primary { border: 1px solid #86efac; background: #dcfce7; color: #166534; }
+        .bookmark-prompt-secondary { border: 1px solid #e2e8f0; background: #fff; color: #64748b; }
+        @media (max-width: 600px) { .bookmark-prompt { right: 1rem; bottom: 1rem; } }
+        
+        .model-tag {
+            display: inline-block;
+            background: rgba(102, 187, 106, 0.15);
+            color: var(--color-accent1-dark);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin: 2px;
+            font-weight: 600;
+        }
+
+        /* Official plan card: gold "Official Direct" badge */
+        .official-badge {
+            position: absolute; top: 1rem; right: 1rem; z-index: 1;
+            background: var(--color-accent2); color: var(--color-primary);
+            font-size: 0.72rem; font-weight: 800; letter-spacing: 0.03em;
+            padding: 4px 10px; border-radius: 50px;
+            box-shadow: 0 4px 12px rgba(255, 179, 0, 0.3);
+        }
+        /* Gold button (official plan, overrides default green .btn) */
+        .btn-gold { background: linear-gradient(135deg, var(--color-accent2), var(--color-accent2-dark)); color: var(--color-primary); box-shadow: 0 4px 15px rgba(255, 179, 0, 0.35); }
+        .btn-gold:hover { background: var(--color-accent2-dark); transform: translateY(-2px); }
+        .purchase-channel { width: 100%; max-width: 1000px; display: grid; grid-template-columns: 22% 39% 39%; gap: 0; margin: 1rem auto 0; padding: 0; overflow: hidden; border: 1px solid rgba(245, 158, 11, 0.45); border-radius: 0.8rem; background: rgba(255, 251, 235, 0.72); }
+        .purchase-channel-title, .purchase-channel .btn { min-height: 52px; display: flex; align-items: center; justify-content: center; border-radius: 0; }
+        .purchase-channel-title { justify-content: flex-start; padding: 1rem 1.2rem; color: #b45309; font-size: 1.05rem; font-weight: 800; }
+        .purchase-channel .btn { width: auto; justify-self: start; margin: 0 0 0 1.2rem; padding: 0.2rem 0.75rem; border-radius: 0.45rem; font-size: 0.95rem; box-shadow: none; background: transparent; color: #15803d; border: 0; font-weight: 800; }
+        .purchase-channel > .btn:not(.btn-secondary) { border: 1px solid rgba(21, 128, 61, 0.45); }
+        .purchase-channel .btn-secondary { color: #92400e; background: transparent; border: 1px solid rgba(146,64,14,0.25); }
+        #faq { width: 100%; text-align: left; }
+        #faq .faq { width: min(100%, 1000px); max-width: 1000px; margin: 0 auto; text-align: left; }
+        #faq .faq details, #faq .faq summary, #faq .faq p { width: 100%; text-align: left; }
+        #faq .faq summary { display: flex; align-items: flex-start; justify-content: flex-start; gap: 0.45rem; padding: 0.15rem 0; cursor: pointer; list-style: none; }
+        #faq .faq summary::-webkit-details-marker { display: none; }
+        #faq .faq summary::before { content: "▸"; flex: 0 0 auto; color: #5d4037; }
+        #faq .faq details[open] > summary::before { content: "▾"; }
+        #faq .faq p { margin: 0 0 0 1.35rem; width: calc(100% - 1.35rem); }
+        /* Keep English text as crisp as the Chinese page. */
+        html, body, button, input, textarea, select { font-family: Arial, "Segoe UI", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif; text-rendering: optimizeLegibility; }
+        body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; color: #1f2937; }
+        .seo-text-block, .faq summary, .faq p, .comparison-table td, .comparison-table th, .update-link, .update-date, .status-box { color: #334155; font-weight: 500; }
+        .card-title, .feature-highlight h3 { font-weight: 700; }
+        @media (max-width: 600px) {
+            .purchase-channel { grid-template-columns: 1fr; gap: 0.35rem; padding: 0.7rem 0; }
+            .purchase-channel-title, .purchase-channel .btn { justify-self: center; margin-left: 0; }
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="background-canvas" aria-hidden="true"></canvas>
+
+    <svg style="display: none;">
+        <symbol id="icon-cloud" viewbox="0 0 100 60">
+            <path d="M26.75 60C11.9753 60 0 48.0247 0 33.25C0 18.4753 11.9753 6.5 26.75 6.5C31.2825 6.5 35.5392 7.71181 39.25 9.875C41.7708 4.19531 47.4625 0.5 54 0.5C62.5566 0.5 69.5 7.4434 69.5 16C69.5 16.5794 69.4519 17.1503 69.3587 17.712C73.2842 16.5862 77.5144 16 82 16C91.9411 16 100 24.0589 100 34C100 43.9411 91.9411 52 82 52H26.75" fill="white" stroke="#e0f7fa" stroke-width="2"></path>
+        </symbol>
+    </svg>
+
+    <header id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand" aria-label="ChatShare Official">
+                <img src="static/picture/caicats-purple.jpg" alt="ChatShare Logo" width="32" height="32">
+                ChatShare
+            </a>
+            
+            <div class="nav-right">
+                <nav class="nav-links" id="navMenu">
+                    <a href="#features">Features</a>
+                    <a href="#updates" style="color: var(--color-accent1-dark);">Updates</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#comparison">Compare</a>
+                    <a href="#faq">FAQ</a>
+                </nav>
+
+                <div class="lang-switch">
+                    <button class="lang-btn">
+                        <span>EN English</span>
+                        <svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
+                    </button>
+                    <div class="lang-dropdown">
+                        <a href="index.html" class="lang-option">
+                            <span>🇨🇳</span> CN 中文
+                        </a>
+                        <a href="" class="lang-option active">
+                            <span>🇺🇸</span> EN English
+                        </a>
+                    </div>
+                </div>
+
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="container" style="padding-bottom: 1rem;">
+            <div class="pricing-hero scroll-animate">
+                <svg class="header-cloud-icon" aria-hidden="true"><use href="#icon-cloud"></use></svg>
+
+                <h1 class="gradient-text">ChatShare Official - Professional AI Model Aggregation Platform</h1>
+
+                <p class="hero-desc">
+                    Dedicated to providing **Safe, High-Speed, Reliable** AI services.<br>
+                    Access <span class="model-tag">GPT-4o</span> <span class="model-tag">Gemini 3</span> and <span class="model-tag">Claude 4.8</span> for just <strong>¥59/mo</strong>.<br>
+                    <span style="font-size: 0.9em; opacity: 0.8;">Enterprise Service Architecture · Privacy Isolation · 30-Day Guarantee</span>
+                </p>
+            </div>
+        </section>
+
+        <!-- Hub Section -->
+        <section id="updates" class="container" style="padding-top: 0;">
+            <div class="hub-section scroll-animate">
+                <div class="status-box">
+                    <div class="status-header">
+                        <span style="font-size: 1.2rem;">📢 System Updates</span>
+                        <a href="#pricing" style="font-size: 0.8rem; color: var(--color-accent1-dark); margin-left: auto;" aria-label="View all updates">View All ></a>
+                    </div>
+                    <ul class="update-list">
+                        <li class="update-item">
+                            <span class="update-tag tag-new">Pinned</span>
+                            <a href="#pricing" class="update-link">ChatShare Official Site Launched! GPT-5.6 Deployed</a>
+                            <span class="update-date">2026/03/08</span>
+                        </li>
+                        <li class="update-item">
+                            <span class="update-tag tag-new">NEW</span>
+                            <a href="#pricing" class="update-link">ChatGPT Latest Image Generation Model Image 2 Now Available</a>
+                            <span class="update-date">2026/04/25</span>
+                        </li>
+                        <li class="update-item">
+                            <span class="update-tag tag-tech">Notice</span>
+                            <a href="#comparison" class="update-link">How to Save Money on ChatGPT Plus Official Price Hikes</a>
+                            <span class="update-date">2026/03/08</span>
+                        </li>
+                        <li class="update-item">
+                            <span class="update-tag tag-tech">Upgrade</span>
+                            <a href="#features" class="update-link">Grok-4 Model Support Added, Free for Members</a>
+                            <span class="update-date">2026/03/08</span>
+                        </li>
+                        <li class="update-item">
+                            <span class="update-tag tag-tech">Tips</span>
+                            <a href="#faq" class="update-link">Enterprise Invoices Now Available for Labs & Companies</a>
+                            <span class="update-date">2026/03/08</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="status-box" style="display: flex; flex-direction: column; justify-content: center;">
+                    <div class="status-header" style="border-bottom: none; margin-bottom: 0;">
+                        <div class="status-dot"></div>
+                        <span style="font-weight: 700;">System Status</span>
+                    </div>
+                    <div style="margin-top: 1rem; font-size: 0.9rem; color: var(--color-secondary);">
+                        <p>✅ GPT-5.6 API: <span style="color: #4caf50;">Fluent</span> (35ms)</p>
+                        <p>✅ Claude 4.8: <span style="color: #4caf50;">Fluent</span> (120ms)</p>
+                        <p>✅ Gemini 3.1 Pro: <span style="color: #4caf50;">Low Latency</span> (High-Speed Network)</p>
+                        <p style="margin-top: 10px; font-size: 0.8rem; opacity: 0.7;">Last Updated: 2026/03/08 18:40</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats -->
+        <section class="container">
+            <div class="stats-container scroll-animate">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="5000">5000+</div>
+                    <div class="stat-label">Active Researchers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="99">99.9%</div>
+                    <div class="stat-label">Uptime SLA</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">Major Service Interruptions</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="24">24h</div>
+                    <div class="stat-label">Support Response</div>
+                </div>
+            </div>
+
+            <!-- Pricing -->
+            <div id="pricing" class="pricing-container">
+                <h2 class="card-title">💰 Subscription Plans (AI Aggregation Service)</h2>
+                <div class="pricing-cards-wrapper scroll-animate">
+                    
+                    <article class="card pricing-card">
+                        <div class="price-display" style="text-align: center; margin-bottom: 1rem;">
+                            <span class="price-amount">¥59</span><span style="color:var(--color-secondary)">/mo</span>
+                        </div>
+                        <h3 class="card-title" style="text-align: center;">All-in-One AI Service Pass</h3>
+                        <p style="text-align: center; font-size: 0.9rem; color: var(--color-secondary); margin-bottom: 1rem;">Save 60% vs Official $20 (approx ¥165)</p>
+                        
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <span class="feature-icon"><svg viewbox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg></span>
+                                <div>
+                                    <strong>Includes All Top Models:</strong><br>
+                                    <span style="font-size: 0.85rem; opacity: 0.9; line-height: 1.4; display: block; margin-top: 4px;">
+                                        • <strong>OpenAI:</strong> GPT-5.6, o1-Pro, GPT-5.6 Sol<br>
+                                        • <strong>Anthropic:</strong> Claude 4.8 Sonnet, Opus<br>
+                                        • <strong>Google:</strong> Gemini 3.1 Pro, Flash<br>
+                                        • <strong>Domestic:</strong> DeepSeek R1, V3 (Full Version)<br>
+                                        • <strong>xAI:</strong> Grok-4.2 Beta, DeepSearch
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon"><svg viewbox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg></span>
+                                <span><strong>High-Speed Network</strong> via optimized enterprise lines</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon"><svg viewbox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg></span>
+                                <span><strong>Service Stability Guarantee</strong> (Refund if interrupted)</span>
+                            </div>
+                        </div>
+                        <div class="pricing-button-group" style="display: flex; flex-direction: column; gap: 0.8rem;">
+                            <a href="https://fcai.me/chatshare" target="_blank" rel="noopener noreferrer nofollow" class="btn">✨ Buy Activation Code</a>
+                            <a href="https://fcai.me/chajian" target="_blank" rel="noopener noreferrer nofollow" class="btn btn-secondary">📖 User Guide</a>
+                        </div>
+                    </article>
+
+                    <article class="card pricing-card" style="border-color: var(--color-accent2);">
+                        <div class="official-badge">Official Direct</div>
+                        <div class="price-display" style="text-align: center; margin-bottom: 1rem;">
+                            <span class="price-amount" style="color: #e65100;">¥170</span><span style="color:var(--color-secondary)">/mo</span>
+                        </div>
+                        <h3 class="card-title" style="text-align: center;">Official Plan · Direct Access</h3>
+                        <p style="text-align: center; font-size: 0.9rem; color: var(--color-secondary); margin-bottom: 1rem;">Official channel top-up · Genuine exclusive account · Ready to use</p>
+
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <span class="feature-icon"><svg viewbox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg></span>
+                                <span><strong>Official & Genuine:</strong> Direct top-up, no black/chargeback cards</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon"><svg viewbox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg></span>
+                                <span><strong>Exclusive Account:</strong> Private login, password & privacy lock supported</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon"><svg viewbox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg></span>
+                                <span><strong>Warranty:</strong> 30-day guarantee, instant support response</span>
+                            </div>
+                        </div>
+                        <div class="pricing-button-group" style="display: flex; flex-direction: column; gap: 0.8rem;">
+                            <a href="https://fcai.me/chatshare" target="_blank" rel="noopener noreferrer nofollow" class="btn btn-gold">🚀 Buy Activation Code</a>
+                        </div>
+                    </article>
+
+                    <article class="card pricing-card" style="border-color: var(--color-accent2); display: none;">
+                        <div class="price-display" style="display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem; height: 95px;">
+                            <span style="font-size: 3rem;">🌏</span>
+                        </div>
+                        <h3 class="card-title" style="text-align: center;">Plus Account Top-up</h3>
+                        <p style="text-align: center; font-size: 0.9rem; color: var(--color-secondary); margin-bottom: 1rem;">Official channel top-up, reliable and stable</p>
+                        
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <span class="feature-icon"><svg viewbox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg></span>
+                                <span><strong>Safe & Reliable:</strong> No black cards, full warranty</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon"><svg viewbox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg></span>
+                                <span><strong>Transparent Price:</strong> Only ¥165 </span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon"><svg viewbox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg></span>
+                                <span><strong>Privacy Lock:</strong> Exclusive account, set your own password</span>
+                            </div>
+                        </div>
+                        <div class="pricing-button-group">
+                            <a href="https://fcai.me/chatshare" target="_blank" rel="nofollow noopener noreferrer" class="btn" style="background: var(--color-accent2); color: var(--color-primary);">🚀 Buy Activation Code</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section id="features" class="container scroll-animate">
+            <h2 class="card-title">🛠️ Why Choose ChatShare Official Platform?</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="icon-box"><svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path></svg></div>
+                    <h3 class="card-title">Goodbye Service Interruption Anxiety</h3>
+                    <div class="seo-text-block">
+                        OpenAI recently tightened risk controls in Asia, causing instability for many personal accounts. <strong>ChatShare uses enterprise-grade service architecture</strong>. All requests go through stable overseas server clusters, ensuring continuous service reliability. Even if policies change, our intelligent scheduling system optimizes automatically to ensure zero downtime.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon-box secondary"><svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"></path></svg></div>
+                    <h3 class="card-title">Ultimate Model Aggregation</h3>
+                    <div class="seo-text-block">
+                        Stop switching between platforms. ChatShare aggregates the planet's strongest models: <strong>GPT-5.6 (All-rounder)</strong>, <strong>Claude 4.8 Sonnet (Best Coding)</strong>, and <strong>o1-Pro (Reasoning)</strong>. We sync with official updates in real-time, letting you enjoy a top-tier AI matrix worth hundreds of dollars for a single subscription price.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon-box"><svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path></svg></div>
+                    <h3 class="card-title">Lightning Fast Network Access</h3>
+                    <div class="seo-text-block">
+                        We deployed multiple <strong>high-speed network lines</strong> optimized for complex domestic networks. Whether you are on a company intranet, campus network, or mobile data, enjoy millisecond-level response times. Our optimized page loading speed delivers a smooth user experience.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon-box secondary"><svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"></path></svg></div>
+                    <h3 class="card-title">Data Privacy & Security</h3>
+                    <div class="seo-text-block">
+                        We prioritize data security. ChatShare uses <strong>Conversation Isolation Technology</strong>. Your chat history is stored only in your local browser or encrypted cloud database; no one else can view it. Support password locks for specific chats to provide financial-grade privacy for your creative schemes, code snippets, and research data.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparison -->
+        <section id="comparison" class="container scroll-animate">
+            <h2 class="card-title">✅ Why Choose ChatShare?</h2>
+            <div class="comparison-table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Core Metrics</th>
+                            <th class="text-green">ChatShare Aggregation Platform</th>
+                            <th style="color: #757575;">OpenAI Official / Personal Subscription</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Service Stability</strong></td>
+                            <td class="text-green"><strong>High (Intelligent Scheduling)</strong></td>
+                            <td>Medium/Low (IP shifts/Payment issues)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Access</strong></td>
+                            <td class="text-green"><strong>High-Speed Domestic Network</strong></td>
+                            <td>Requires self-solved network access</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Cost</strong></td>
+                            <td class="text-green"><strong>¥59 /mo (All Models)</strong></td>
+                            <td>$20 + $20 (GPT+Claude approx ¥300)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Payment</strong></td>
+                            <td class="text-green"><strong>WeChat / Alipay</strong></td>
+                            <td>Foreign Credit Card Only (Hard to get)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="purchase-channel">
+                <div class="purchase-channel-title">Purchase Channel</div>
+                <a class="btn" href="https://fcai.me/chatshare" target="_blank" rel="noopener noreferrer nofollow">Buy Activation Code</a>
+                <button class="btn btn-secondary" type="button" onclick="copyRechargeWechat()">Official Top-up</button>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="container scroll-animate">
+            <h2 class="card-title">Frequently Asked Questions</h2>
+            <div class="faq">
+                <details>
+                    <summary>Is ChatShare stable? Will it disappear?</summary>
+                    <p>ChatShare has been operating stably for over 2 years, serving tens of thousands of researchers and developers. We use a prepaid service model with healthy cash flow, committed to being the longest-running AI service provider in China. All plans come with a 30-day warranty.</p>
+                </details>
+                <details>
+                    <summary>Do you support Gemini, Grok, and Claude?</summary>
+                    <p>Yes. After purchasing a monthly pass, you can freely switch models in the new Plus area chat interface, or choose different sections to use different mirrors. Our system is mainly an OpenAI account library, while Gemini, Grok, and Claude are additional benefits and may not always be available. If a model is unavailable, we will repair it as soon as possible.</p>
+                </details>
+                <details>
+                    <summary>How do I use it after purchase?</summary>
+                    <p>It's simple. 1. Click <a href="https://fcai.me/chatshare" target="_blank" rel="noopener noreferrer nofollow">Buy Subscription</a>; 2. Return to the top-right corner of this site to register or log in; 3. Enter the activation code under "Use Activation Code" below your avatar on the left side of the dashboard. Quick and easy setup.</p>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact & Footer -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="card-grid">
+                <div class="card scroll-animate">
+                    <h3 class="card-title">📞 24/7 Customer Support</h3>
+                    <div style="display: flex; gap: 1rem; align-items: center;">
+                        <div style="flex: 1;">
+                            <p><strong>WeChat Support:</strong> <span id="wechat-id" style="color: var(--color-primary); font-weight: 600;">caicats</span> <button onclick="copyWechat()" class="btn" style="padding: 2px 10px; font-size: 0.8rem; display: inline-block; width: auto; margin-left:5px;">Copy</button></p>
+                            <p style="font-size: 0.9rem; color: var(--color-secondary); margin-top:5px;">Hours: 9:00 - 23:00 (Everyday)<br>Contact us for recharge issues or model errors. We usually reply within 10 minutes.</p>
+                        </div>
+                        <img src="static/picture/057a930b4644c64ccaa585e4c5803801.jpg" alt="Customer QR code" style="width: 80px; height: 80px; border-radius: 8px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="seo-footer-text">
+            <!-- Strategy: Footer emphasizes "ChatShare Platform" concept -->
+            <p>ChatShare Official Site is a leading AI aggregation platform in China, providing one-stop services including ChatGPT, Claude, Gemini, DeepSeek R1, and Grok. We are dedicated to solving subscription and payment challenges, offering affordable, stable AI productivity tools for Chinese users. ChatShare supports PC and mobile access, corporate transfers, and invoicing. Your trusted AI partner.</p>
+        </div>
+        <p>© 2025 ChatShare. All rights reserved.</p>
+    </footer>
+
+    <div id="copy-toast" class="copy-toast">WeChat ID Copied</div>
+    <aside id="bookmark-prompt" class="bookmark-prompt" hidden aria-label="Bookmark this site">
+        <div class="bookmark-prompt-header">
+            <div class="bookmark-prompt-icon" aria-hidden="true">☆</div>
+            <div>
+                <h3>Bookmark this site</h3>
+                <p class="bookmark-prompt-subtitle">ChatShare Official Entrance · Always Available</p>
+            </div>
+            <button class="bookmark-prompt-close" type="button" aria-label="Close bookmark prompt">×</button>
+        </div>
+        <p class="bookmark-prompt-message">Bookmark this page for quick access to the official entrance, activation codes, renewals, and usage information.</p>
+        <div class="bookmark-prompt-actions">
+            <button class="bookmark-prompt-primary" type="button">☆ Bookmark Now</button>
+            <button class="bookmark-prompt-secondary" type="button">Later</button>
+        </div>
+    </aside>
+
+    <script>
+        function toggleMenu() { document.getElementById('navMenu').classList.toggle('open'); }
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        function copyWechat() {
+            const text = document.getElementById('wechat-id').innerText;
+            navigator.clipboard.writeText(text).then(() => showToast()).catch(() => {
+                const ta = document.createElement("textarea");
+                ta.value = text; document.body.appendChild(ta); ta.select(); document.execCommand("Copy"); ta.remove();
+                showToast();
+            });
+        }
+        function showToast() {
+            const t = document.getElementById('copy-toast');
+            t.classList.add('show'); setTimeout(() => t.classList.remove('show'), 2000);
+        }
+        function copyRechargeWechat() {
+            const text = 'caicats';
+            const message = 'WeChat ID caicats copied. Please add us and note: GPT top-up.';
+            const notify = () => {
+                const t = document.getElementById('copy-toast');
+                t.textContent = message;
+                t.classList.add('show');
+                setTimeout(() => {
+                    t.classList.remove('show');
+                    t.textContent = 'WeChat ID Copied';
+                }, 3500);
+            };
+            navigator.clipboard.writeText(text).then(notify).catch(() => {
+                const ta = document.createElement('textarea');
+                ta.value = text; document.body.appendChild(ta); ta.select(); document.execCommand('Copy'); ta.remove();
+                notify();
+            });
+        }
+        (function initBookmarkPrompt() {
+            const prompt = document.getElementById('bookmark-prompt');
+            if (!prompt) return;
+            const close = () => {
+                prompt.classList.remove('is-visible');
+                setTimeout(() => { prompt.hidden = true; }, 250);
+            };
+            const show = () => {
+                prompt.hidden = false;
+                requestAnimationFrame(() => prompt.classList.add('is-visible'));
+            };
+            prompt.querySelector('.bookmark-prompt-close').addEventListener('click', close);
+            prompt.querySelector('.bookmark-prompt-secondary').addEventListener('click', close);
+            prompt.querySelector('.bookmark-prompt-primary').addEventListener('click', () => {
+                let bookmarked = false;
+                try {
+                    if (window.external && typeof window.external.AddFavorite === 'function') {
+                        window.external.AddFavorite(location.href, document.title);
+                        bookmarked = true;
+                    }
+                } catch (error) {}
+                if (!bookmarked) {
+                    const t = document.getElementById('copy-toast');
+                    t.textContent = 'Press Ctrl+D to bookmark this site';
+                    t.classList.add('show');
+                    setTimeout(() => {
+                        t.classList.remove('show');
+                        t.textContent = 'WeChat ID Copied';
+                    }, 3000);
+                }
+                close();
+            });
+            setTimeout(show, 1200);
+        })();
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    if (entry.target.querySelector('.stat-number')) animateNumbers();
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.scroll-animate').forEach(el => observer.observe(el));
+
+        let numbersAnimated = false;
+        function animateNumbers() {
+            if (numbersAnimated) return; numbersAnimated = true;
+            document.querySelectorAll('.stat-number').forEach(stat => {
+                const target = parseInt(stat.getAttribute('data-target'));
+                if (isNaN(target)) return;
+                let current = 0; const step = target / 40;
+                const timer = setInterval(() => {
+                    current += step;
+                    if (current >= target) {
+                        stat.innerText = target + (stat.innerText.includes('%') ? '%' : '+'); clearInterval(timer);
+                    } else {
+                        stat.innerText = Math.ceil(current) + (stat.innerText.includes('%') ? '%' : '+');
+                    }
+                }, 30);
+            });
+        }
+
+        window.onload = function() {
+            const canvas = document.getElementById('background-canvas');
+            const ctx = canvas.getContext('2d');
+            let particles = [];
+            function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
+            window.addEventListener('resize', resize); resize();
+            
+            class Particle {
+                constructor() {
+                    this.x = Math.random() * canvas.width; this.y = Math.random() * canvas.height;
+                    this.size = Math.random() * 3 + 1; this.sx = Math.random() * 0.5 - 0.25; this.sy = Math.random() * 0.5 - 0.25;
+                    this.color = `rgba(102, 187, 106, ${Math.random() * 0.15 + 0.05})`;
+                }
+                update() {
+                    this.x += this.sx; this.y += this.sy;
+                    if (this.x > canvas.width) this.x = 0; else if (this.x < 0) this.x = canvas.width;
+                    if (this.y > canvas.height) this.y = 0; else if (this.y < 0) this.y = canvas.height;
+                }
+                draw() { ctx.fillStyle = this.color; ctx.beginPath(); ctx.arc(this.x, this.y, this.size, 0, Math.PI*2); ctx.fill(); }
+            }
+            for(let i=0; i<(window.innerWidth<768?20:50); i++) particles.push(new Particle());
+            function animate() { ctx.clearRect(0,0,canvas.width,canvas.height); particles.forEach(p=>{p.update();p.draw();}); requestAnimationFrame(animate); }
+            animate();
+        };
+                document.addEventListener('contextmenu', function(e) {
+    			e.preventDefault();
+		});
+		document.addEventListener('keydown', function(e) {
+    			if (e.key === 'F12' || 
+       	(e.ctrlKey && e.shiftKey && e.key === 'I') || 
+       	(e.ctrlKey && e.key === 'u')) {
+        	e.preventDefault();
+    		}
+		});
+    </script>
+</body>
+</html>
