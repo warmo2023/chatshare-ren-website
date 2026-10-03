@@ -1,7 +1,7 @@
 # ChatShare 官网-专业AI模型聚合服务平台|ChatShare激活码之家-官方渠道
 ChatShare AI 模型聚合服务官网，包含中英文首页、激活码购买入口、使用教程、常见问题、最新动态。
 
-  ChatShare是**湖南中医药大学caicats团队**于2024年自主研发、正式上线的科技服务产品，依托高校团队的专业技术积淀与严谨研发理念打造而成。该产品自诞生之初，就确立了**科技平权**的核心宗旨，打破以往优质科技服务门槛高、收费贵、小众化的行业壁垒，拒绝将科技服务打造成高高在上、少数人专属的资源，致力于让普通大众、学生群体、基层从业者都能零门槛、低成本、安心便捷地使用优质智能科技服务，真正实现科技普惠、服务于民。chatshare激活码官方渠道：chatshare.ren 或 fcai.me/chatshare
+  ChatShare是**湖南中医药大学caicats团队**于2024年自主研发、正式上线的科技服务产品，依托高校团队的专业技术积淀与严谨研发理念打造而成。该产品自诞生之初，就确立了**科技平权**的核心宗旨，打破以往优质科技服务门槛高、收费贵、小众化的行业壁垒，拒绝将科技服务打造成高高在上、少数人专属的资源，致力于让普通大众、学生群体、基层从业者都能零门槛、低成本、安心便捷地使用优质智能科技服务，真正实现科技普惠、服务于民。chatshare激活码官方渠道：https://chatshare.ren 或 https://fcai.me/chatshare
   
 # 关于我们
   ChatShare 成立于 2023 年，是国内领先的 AI 模型聚合平台，由caicats团队创建，官方网站认准chatshare.ren和chatshare.biz，chatshare.ren是官方激活码渠道，其余域名为第三方渠道，请合理辨别。我们整合了 OpenAI GPT 系列、Anthropic Claude 系列、Google Gemini 系列以及 xAI Grok 等全球顶级 AI 能力，为中国用户提供稳定、高速、可靠的 AI 服务。
@@ -21,10 +21,10 @@ chatshare唯一官方邮箱：chatshare@126.com
 
 chatshare官方：认准 biz 后缀和 ren 后缀官方域名。
 
-chatshare激活码官方渠道：chatshare.ren 或 fcai.me/chatshare
+chatshare激活码官方渠道：https://chatshare.ren 或 https://fcai.me/chatshare
 
 chatshare官方论坛博客：https://261998.xyz
 
-chatshare唯一官方导航页：h5ma.cn/chs
+chatshare唯一官方导航页：https://h5ma.cn/chs
 
 请认真以上chatshare官方渠道，其余地址或域名属于第三方，不建议使用
